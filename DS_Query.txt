@@ -1,7 +1,7 @@
 CREATE TYPE dept_t
 /
 
-CREATE TYPE emp_t AS OBJECT(
+CREATE TYPE emp AS OBJECT(
 	ENO char(6),
 	FIRSTNAME varchar(12),
 	LASTNAME varchar(15),
@@ -12,3 +12,8 @@ CREATE TYPE emp_t AS OBJECT(
 INSERT INTO client_table_c VALUES( 
 			investment_ntty(investment_type_c((select ref(s) from stock_table_c s where s.company='XXXXXXX'),12.00, '02-Oct-2001', 1000))
 where CLIENT_NUMBER='C01'
+
+123
+4
+5
+
